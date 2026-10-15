@@ -1,0 +1,18 @@
+# Virtual environment
+venv/
+
+# Dataset (large; download it from UCI instead)
+data/
+
+# MLflow tracking output
+mlruns/
+mlartifacts/
+mlflow.db
+
+# Python and Jupyter clutter
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Editor settings
+.vscode/
