@@ -1,0 +1,7 @@
+model,scaled,cv_accuracy,std
+Logistic Regression,False,0.9387,0.0404
+Logistic Regression,True,0.9343,0.0393
+SVM (RBF),False,0.9343,0.0425
+SVM (RBF),True,0.9231,0.0408
+Random Forest,False,0.9167,0.0431
+Random Forest,True,0.9165,0.0448

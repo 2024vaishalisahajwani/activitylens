@@ -1,0 +1,13 @@
+threshold,features_kept_full_train,model,cv_accuracy,std
+1.0,561,Logistic Regression,0.9343,0.0393
+1.0,561,SVM (RBF),0.9231,0.0408
+1.0,561,Random Forest,0.9165,0.0448
+0.99,439,Logistic Regression,0.9396,0.0368
+0.99,439,SVM (RBF),0.9242,0.0401
+0.99,439,Random Forest,0.9285,0.0427
+0.95,253,Logistic Regression,0.931,0.0331
+0.95,253,SVM (RBF),0.9209,0.0368
+0.95,253,Random Forest,0.9265,0.0435
+0.9,202,Logistic Regression,0.9305,0.0341
+0.9,202,SVM (RBF),0.9206,0.0382
+0.9,202,Random Forest,0.9174,0.0506
