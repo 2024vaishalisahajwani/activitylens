@@ -1,0 +1,21 @@
+family,config,cv_accuracy,cv_std,cv_f1_macro,fit_seconds
+Logistic Regression,"scaled=False, C=1",0.9331,0.034,0.9326,26.2
+Logistic Regression,"scaled=True, C=0.1",0.9326,0.0355,0.9323,3.5
+Logistic Regression,"scaled=True, C=1",0.931,0.0331,0.9307,22.1
+Logistic Regression,"scaled=False, C=0.1",0.9287,0.038,0.9284,26.5
+Logistic Regression,"scaled=False, C=10",0.9285,0.0343,0.928,1.6
+Logistic Regression,"scaled=True, C=10",0.9248,0.0323,0.9244,1.4
+Random Forest,"scaled=False, max_depth=None, min_samples_leaf=3",0.9304,0.0405,0.9304,4.8
+Random Forest,"scaled=False, max_depth=10, min_samples_leaf=3",0.9282,0.0395,0.9282,4.6
+Random Forest,"scaled=False, max_depth=10, min_samples_leaf=1",0.9267,0.044,0.9261,4.7
+Random Forest,"scaled=False, max_depth=None, min_samples_leaf=1",0.9258,0.044,0.9249,5.1
+SVM (RBF),"scaled=False, C=10",0.9372,0.0293,0.937,1.0
+SVM (RBF),"scaled=False, C=100",0.9342,0.0288,0.9343,1.3
+SVM (RBF),"scaled=False, C=1",0.9315,0.036,0.9317,1.1
+SVM (RBF),"scaled=True, C=1",0.9209,0.0368,0.9204,1.3
+SVM (RBF),"scaled=True, C=10",0.9197,0.0364,0.9191,2.4
+SVM (RBF),"scaled=True, C=100",0.9181,0.0372,0.9176,1.9
+XGBoost,"scaled=False, learning_rate=0.1, max_depth=3",0.9332,0.0388,0.9339,8.8
+XGBoost,"scaled=False, learning_rate=0.1, max_depth=6",0.9322,0.0401,0.9331,14.4
+XGBoost,"scaled=False, learning_rate=0.05, max_depth=3",0.9313,0.0378,0.9319,10.1
+XGBoost,"scaled=False, learning_rate=0.05, max_depth=6",0.9304,0.0406,0.9309,16.6
